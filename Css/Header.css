@@ -1,0 +1,90 @@
+.encabezado{
+    background: #383737;
+    font-family: 'Montaga', serif;
+}
+
+.encabezado .social{
+    display: flex;
+    justify-content: center;
+}
+
+.encabezado a{
+    color: #c77029;
+}
+
+.eslogan{    
+    font-size: 1em;
+    color: #bebebe;
+    margin-right: 10px;
+}
+
+.imagen-fono{
+    width: 17px;
+    vertical-align: bottom;
+}
+
+.imagen-mail{
+    width: 17px;
+    vertical-align: bottom;
+}
+
+.social li{
+    padding-bottom: 5px;
+}
+
+.imagen-social-facebook{
+    margin-right: 10px;
+}
+
+.social img{
+    width: 1.25em;
+}
+
+@media only screen and (max-width: 574px) {
+    .encabezado{
+        background: #ffffff;
+    }
+    .contacto{
+        text-align: center;
+        padding: 8px 0;
+    }
+    .eslogan{
+        display: none;
+    }
+    .fono{
+        padding-bottom: 3px;
+    }
+}
+
+@media only screen and (min-width: 575px) and (max-width: 768px) {
+    .contacto{
+        padding: 8px 0;
+    }
+    .encabezado ul{
+        display: flex;
+        justify-content: center;
+    }
+    .fono{
+        margin-right: 10px;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    .encabezado{
+        display: flex;
+        justify-content: space-around;
+    }
+    .encabezado ul{
+        display: flex;
+        justify-content: center;
+    }
+    .contacto li{
+        padding: 15px 0;
+    }
+    .social li{
+        padding-top: 15px;
+    }
+    .fono{
+        margin-right: 10px;
+    }
+}
